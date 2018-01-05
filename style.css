@@ -1,0 +1,150 @@
+/*
+Theme Name: MyBlog
+Author: Anton Shevchuk
+Description: Theme from scratch
+Version: 0.0.1
+Tags: newtheme, bootstrap
+*/
+
+/*.border{
+	border: 1px solid #eee;
+}*/
+body{
+	/*font-family: 'Didact Gothic', sans-serif;*/
+	/*background-color: #F2F2F2;*/
+}
+
+header{
+	position: relative;
+	z-index: 2;
+	/*box-shadow: -1px 3px 6px -2px rgba(110,110,110,0.6);*/
+	/*margin-bottom: 20px;*/
+	/*box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);*/
+	/*box-shadow: 0px 2px 16px 1px rgba(0,0,0,0.75);*/
+}
+.header{
+	padding-left: 30px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.page{
+	background-color: #eee;
+}
+
+.navigation{
+	padding: 10px 0px 10px 20px;
+	border-top: 1px solid #eee;
+	/*border-bottom: 1px solid #eee;*/
+	/*background-color: #f1f1f1;*/
+	background-color: #fff;
+	/*box-shadow: 0px 2px 5px 0px rgba(166,166,166,1);*/
+	box-shadow: -1px 3px 6px -2px rgba(110,110,110,0.6);
+	/*box-shadow: 0px 8px 11px -6px rgba(0,0,0,0.46);*/
+	/*box-shadow: 0px 8px 11px -6px rgba(0,0,0,0.61);*/
+	/*box-shadow: 0px 2px 12px -1px rgba(0,0,0,0.61);*/
+	/*box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.35);*/
+	/*box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);*/
+	/*box-shadow: 0px 1px 1px 0px rgba(143,143,143,1);*/
+	/*box-shadow: 0px 1px 2px 0px rgba(102,102,102,1);*/
+	/*background-color: #3F3A3C;*/
+	/*background-color: #212529;*/
+}
+
+nav li a{
+	font-size: 1.2em;
+	/*color: #fff;*/
+}
+
+.navigation li a:hover{
+	text-decoration: none;
+}
+
+.home-content{
+	/*position: static;*/
+	z-index: 1;
+	margin-bottom: 5px;
+	padding-top: 40px;
+	/*padding-bottom: 20px;*/
+	padding-left: 35px;
+	font-size: 1.2em;
+	background-color: #F2F2F2;
+	/*border: 1px solid #eee;*/
+	/*box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);*/
+}
+.home-title{
+
+}
+
+
+.home-content p{
+	/*margin-bottom: 0px;*/
+}
+.row-content{
+	background-color: #F2F2F2;
+	/*box-shadow: inset 0px 1px 2px 1px rgba(0,0,0,0.75);*/
+}
+.home-content h2{
+	border-bottom: 1px solid #eee;
+}
+
+.home-content hr{
+	display: inline-block;
+	width: 40%;
+	margin-bottom: 30px;
+	background-color: #3445BA;
+}
+/*.home-content hr:last-child{
+	display: inline-block;
+	width: 30%;
+	height: 10%;
+	margin-bottom: 30px;
+	background-color: #3445BA;
+}*/
+
+.post-title{
+	margin-bottom: 15px;
+}
+.post-column{
+	/*padding-top: 35px;*/
+	padding-bottom: 30px;
+}
+
+.post-type{
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 17px;
+	/*height: 70px;*/
+	/*background-color: #475FFF;*/
+	/*background-color: #3445BA;*/
+	/*background-color: #212D77;*/
+	background-color: #fff;
+	color: #212D77;
+	border: 1px solid #212D77;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	/*border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;*/
+}
+
+
+footer{
+	height: 200px;
+	/*background-color: #3F3A3C;*/
+	/*background-color: #212529;*/
+	background-color: #fff;
+	color: #fff;
+	box-shadow: -1px -3px 6px -2px rgba(110,110,110,1);
+}
+.footer{
+	padding: 10px 0px 0px 30px;
+}

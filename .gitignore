@@ -1,0 +1,5 @@
+# This is a .gitignore file
+# all development libraries should be included here to ignore
+
+# assets - is a folder that contains css/javascript libraries for now.
+assets/
