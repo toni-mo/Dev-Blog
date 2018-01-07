@@ -2,6 +2,7 @@
 <div class="container">
 	<div class="row border">
 		<div class="col-md-7 offset-md-2 border">
+		<h1>This is an index.php template</h1>
 			<?php 
 				if( have_posts() ):
 					while( have_posts() ):

@@ -66,6 +66,7 @@ nav li a{
 .home-content{
 	/*position: static;*/
 	z-index: 1;
+	height: 570px;
 	margin-bottom: 5px;
 	padding-top: 40px;
 	/*padding-bottom: 20px;*/
