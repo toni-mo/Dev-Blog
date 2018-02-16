@@ -6,8 +6,8 @@
 
 
 
-<div class="container-fluid">
-	<div class="row row-content">
+<div class="container-fluid main-background">
+	<div class="row">
 		<div class="col-md-6 offset-md-3 text-center home-content">
 			<?php
 				if( have_posts() ):
@@ -28,13 +28,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6 offset-3 post-column text-center">
-		
-	</div>
-		
-	</div>
-	<div class="row">
-	
 	</div>
 </div>
 

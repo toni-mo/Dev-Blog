@@ -1,0 +1,12 @@
+# This is a Wordpress glossary 
+
+# The purpose of this glossary is to make coding process easier for developer. All functions that are in use are close, so they can be looked up.
+# All functions should be inserted between <?php function(); ?> tags.
+
+ ________________________________________________
+|        Function       ||        Meaning        |
+-------------------------------------------------
+|     the_content();    ||   gets post's content | 
+|     the_title();      ||   gets post's title   |
+|     the_date();       ||   gets post's date    |
+|     the_author();     ||   gets post's author  |

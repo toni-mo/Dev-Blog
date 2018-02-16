@@ -6,12 +6,17 @@ Version: 0.0.1
 Tags: newtheme, bootstrap
 */
 
-/*.border{
-	border: 1px solid #eee;
-}*/
+.border-black{
+	border: 1px solid #222;
+}
 body{
 	/*font-family: 'Didact Gothic', sans-serif;*/
 	/*background-color: #F2F2F2;*/
+}
+
+.main-background{
+	padding-top: 30px;
+	background: #F2F2F2;
 }
 
 header{
@@ -23,6 +28,7 @@ header{
 	/*box-shadow: 0px 2px 16px 1px rgba(0,0,0,0.75);*/
 }
 .header{
+	margin-left: 240px;
 	padding-left: 30px;
 }
 
@@ -52,6 +58,10 @@ nav li {
 	/*box-shadow: 0px 1px 2px 0px rgba(102,102,102,1);*/
 	/*background-color: #3F3A3C;*/
 	/*background-color: #212529;*/
+}
+.navigation-container{
+	margin-left: 250px;
+	padding-left: 0px;
 }
 
 nav li a{
@@ -148,4 +158,97 @@ footer{
 }
 .footer{
 	padding: 10px 0px 0px 30px;
+}
+
+/*Posts Page Style*/
+.post-item{
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	height: 190px;
+	/*margin-left: 30px;*/
+}
+.post-image{
+	/*display: inline-block;*/
+	/*position: relative;*/
+	/*left: 0px;*/
+	/*top: 0px;*/
+	padding-top: 10px;
+	padding-left: 10px;
+	/*width: 200px;*/
+	float: left;
+}
+.post-image img{
+	vertical-align: none;
+}
+.post-content{
+	/*margin-left: 150px;*/
+	padding-top: 20px;
+	padding-left: 20px;
+	/*float: left;*/
+	display: inline-block;
+	width: 65%;
+}
+.post-content p{
+	margin-bottom: 0px;
+}
+.post-date{
+	float: right;
+}
+
+.posts-container{
+	margin-left: 21%;
+	padding: 0px;
+	/*padding-top: 15px;*/
+	background-color: #fff;
+	box-shadow: -1px 0px 6px -2px rgba(110,110,110,1);
+}
+.posts-title{
+	padding-left: 45px;
+	/*color: #fff;*/
+	color: #414142;
+	font-size: 4em;
+	/*text-shadow: 4px 4px 2px rgba(50,50,50, 1);*/
+}
+.search-bar{
+	/*width: 50%;*/
+	/*margin-left:25%;*/
+	border-bottom: 1px solid #eee;
+}
+.search-bar input{
+	width: 95%;
+	height: 50px;
+	/*margin-left: 25%;*/
+	padding-left: 15px;
+	/*margin-bottom: 20px;*/
+	/*border-bottom: 1px solid #eee;*/
+	border: none;
+	/*border-bottom: 1px solid #eee;*/
+	/*border-right: 1px solid #eee;*/
+}
+.search-bar input:focus{
+	outline: none;
+}
+.search-bar button{
+	/*height: 50px;*/
+	background-color: #fff;
+	border: none;
+	color: #a8a8a8;
+}
+.search-bar button:focus{
+	outline: none;
+}
+/*Single Blog Post*/
+.blog-post .single-post-image{
+	margin-bottom: 50px;
+}
+.single-post-title{
+	/*margin-left: 170px;*/
+}
+.single-post-content{
+	margin-left: 290px;
+	padding-right: 32px;
+
+}
+.post-text{
+	font-size: 1.2em;
 }
